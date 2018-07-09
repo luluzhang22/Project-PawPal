@@ -1,0 +1,28 @@
+{
+  "name": "pet-handbook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "express": "^4.16.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "env2": "^2.2.0",
+    "md5": "2.2.1",
+    "mongoose": "^4.11.7",
+    "prop-types": "^15.6.1",
+    "xss": "^0.3.8"
+  },
+  "scripts": {
+    "postinstall": "cd client && npm install"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "client/node_modules"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seainfo6250/project-tourmaline.git"
+  }
+}

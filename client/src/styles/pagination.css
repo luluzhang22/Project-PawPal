@@ -1,0 +1,47 @@
+.pagination {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.page {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 2%;
+}
+
+.page > li {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    line-height: 30px;
+    color: #333;
+    cursor: pointer;
+}
+
+.page > li:first-of-type, .page > li:last-of-type {
+    width: auto;
+    padding: 0 5px;
+}
+
+.page > li:first-of-type {
+    margin-right: 10px;
+}
+
+.page > li:last-of-type {
+    margin-left: 10px;
+}
+
+.page > li::selection {
+    background-color: transparent;
+}
+
+.page-active {
+    color: #fff !important;
+    background: #0D9230;
+    border-color: #0D9230 !important;
+}
+
