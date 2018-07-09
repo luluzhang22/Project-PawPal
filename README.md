@@ -1,7 +1,4 @@
-# project-tourmaline
-## PawPal
-
-Team members: Lulu Zhang, Wenhui Liu
+# project-PawPal
 
 ### Heroku URL
 
